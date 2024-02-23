@@ -1,8 +1,6 @@
 'use client';
-// import Link from 'next/link';
-import { Link } from '@/navigation';
-// import { usePathname } from 'next/navigation';
-import { usePathname } from '@/navigation';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const NavLinks = [
 	{ id: 1, name: 'Home', path: '/' },
@@ -42,12 +40,8 @@ const Navbar = () => {
 				})}
 			</ul>
 			<div className="flex space-x-10">
-				<Link href={pathname} locale="en">
-					🏴󠁧󠁢󠁥󠁮󠁧󠁿 English
-				</Link>
-				<Link href={pathname} locale="fr">
-					🇫🇷 Français
-				</Link>
+				<Link href="#">🏴󠁧󠁢󠁥󠁮󠁧󠁿 English</Link>
+				<Link href="#">🇫🇷 Français</Link>
 			</div>
 		</nav>
 	);
