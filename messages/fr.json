@@ -1,0 +1,55 @@
+{
+    "Home": {
+        "Hero": {
+            "Title": "Démonstration de l'internationalisation avec Next.js",
+            "Subtitle": "Cette démo utilise Next.js et le package next-intl pour créer un site web multilingue. Nous explorons également son fonctionnement avec Hygraph.",
+            "CallToAction": "Lisez à propos de nous"
+        },
+        "Features": {
+            "feature1": {
+                "Title": "Intégration améliorée du routeur d'application",
+                "Description": "Le package next-intl, associé à Hygraph, offre une intégration transparente avec le routeur d'application de Next.js, permettant des capacités de routage dynamique adaptées aux applications multilingues. Cette intégration simplifie le développement de routes internationalisées, améliorant la navigation et l'expérience utilisateur."
+            },
+            "feature2": {
+                "Title": "Prise en charge du rendu statique",
+                "Description": "Exploitez la puissance du rendu statique de Next.js pour des chargements de page plus rapides et une meilleure SEO. Le package next-intl et Hygraph prennent en charge la génération de sites statiques (SSG), assurant que votre contenu internationalisé est pré-rendu pour une performance et une accessibilité optimales."
+            },
+            "feature3": {
+                "Title": "Solutions de navigation avancées",
+                "Description": "Équipez votre site multilingue de fonctionnalités de navigation avancées. L'intégration de next-intl et Hygraph facilite la création de structures de navigation intuitives et spécifiques à chaque langue, rendant plus facile pour les utilisateurs d'explorer le contenu diversifié de votre site."
+            }
+        }
+    },
+    "About": {
+        "Title": "À propos de cette démo",
+        "paragraphs": {
+            "paragraph1": "Cette démonstration met en lumière les capacités robustes du package next-intl, un cadre d'internationalisation de premier plan conçu pour les applications Next.js. En synergie avec Hygraph, ce package offre une boîte à outils complète pour la création de sites Web multilingues. Les caractéristiques clés incluent une intégration sophistiquée du routeur d'application, un soutien complet à la génération de sites statiques (SSG) pour améliorer la performance et le SEO, ainsi que des solutions de navigation innovantes qui répondent à un public mondial.",
+            "paragraph2": "Au-delà de la présentation des synergies techniques entre next-intl et Hygraph, cette démo explique comment ces outils facilitent collectivement le développement de plateformes multilingues. Ils rationalisent le processus d'internationalisation, le rendant plus accessible pour les développeurs à implémenter des fonctionnalités linguistiques complexes, tout en assurant aux utilisateurs une expérience de navigation fluide et intuitive à travers différents paramètres linguistiques."
+        }
+    },
+    "Blog": {
+        "Title": "Blog",
+        "Posts": {
+            "post1": {
+                "id": 1,
+                "Title": "Adopter Next.js pour un développement web pérenne",
+                "Description": "Explorez les avantages de l'utilisation de Next.js dans la construction d'applications web modernes, évolutives et efficaces dans le temps. Cet article examine les fonctionnalités clés de Next.js, la performance optimisée et le support SEO."
+            },
+            "post2": {
+                "id": 2,
+                "Title": "Le pouvoir de l'internationalisation dans le développement web",
+                "Description": "Découvrez l'importance de l'internationalisation pour atteindre un public mondial et comment next-intl et Hygraph peuvent simplifier ce processus. Cet article examine le concept d'internationalisation, les défis auxquels les développeurs sont confrontés et les solutions proposées."
+            },
+            "post3": {
+                "id": 3,
+                "Title": "La génération de sites statiques : Révolutionner le SEO et la performance",
+                "Description": "Apprenez comment la génération de sites statiques (SSG) avec Next.js peut améliorer le SEO et la performance de votre site web, en faisant un choix de prédilection pour les développeurs. Cet article explore la SSG, ses avantages par rapport aux modèles traditionnels et son impact sur le SEO et la performance web."
+            },
+            "post4": {
+                "id": 4,
+                "Title": "Naviguer dans le monde de la navigation et du routage multilingues",
+                "Description": "Un regard approfondi sur les défis et les solutions pour la mise en œuvre de la navigation et du routage multilingues dans les applications web. Cet article se penche sur la nécessité de structures de navigation intuitives et spécifiques à chaque langue."
+            }
+        }
+    }
+}
