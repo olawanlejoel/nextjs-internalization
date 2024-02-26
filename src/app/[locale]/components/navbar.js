@@ -6,8 +6,8 @@ import { usePathname } from '@/navigation';
 
 const NavLinks = [
 	{ id: 1, name: 'Home', path: '/' },
-	{ id: 1, name: 'About', path: '/about' },
-	{ id: 2, name: 'Blog', path: '/blog' },
+	{ id: 2, name: 'About', path: '/about' },
+	{ id: 3, name: 'Blog', path: '/blog' },
 ];
 
 const Navbar = () => {
